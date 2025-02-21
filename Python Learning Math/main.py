@@ -52,4 +52,15 @@ print(math.e)
 
 radius = float(input("Enter the radius of a circle: "))
 circumference = radius * math.pi * 2.0
-print(f"The circumference of the circle is {circumference}")
+print(f"The circumference of the circle is {round(circumference, 3)}")
+
+# Area Problem
+
+area = pow(radius, 2) * math.pi
+print(f"The area of the circle is {round(area, 3)}")
+
+# Hypotenuse Problem
+length = float(input("Enter the length of a triangle: "))
+height = float(input("Enter the height of a triangle: "))
+hypotenuse = math.sqrt(pow(length, 2) + pow(height, 2))
+print(f"The hypotenuse of the triangle is {round(hypotenuse, 2)}")
